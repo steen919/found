@@ -17,6 +17,37 @@
 }
 */
 
+body {
+  background-image:url('../images/background.jpg');
+  background-color:#fff;
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-attachment:fixed;
+}
+
+.row {
+  background:#fff;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+footer {
+  margin-top:20px;
+}
+
+/*-----ORBIT FIX---------*/
+div.orbit-wrapper span.rotator { background: url('../images/foundation/orbit/rotator-black.png') no-repeat; }
+div.orbit-wrapper span.mask.move { background: url('../images/foundation/orbit/timer-black.png') repeat 0 0; }
+div.orbit-wrapper span.pause { background: url('../images/foundation/orbit/pause-black.png') no-repeat; }
+div.orbit-wrapper span.pause.active { background: url('../images/foundation/orbit/pause-black.png') no-repeat 0 -40px; }
+div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png'); }
+div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png');  }
+.lt-ie9 div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png'); }
+.lt-ie9 div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png'); }
+ul.orbit-bullets li { background: url('../images/foundation/orbit/bullets.jpg') no-repeat 4px 0; }
+
+
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
@@ -24,8 +55,38 @@
   margin-top:10px;
 }
 
+#welcome-button {
+  margin-top:30px;
+  text-align: center;
+}
 
+#adress {
+  text-align:center;
+  font-size:small;
+  font-weight:bold;
+  font-variant:small-caps;
+}
 
+#where {
+  margin-top:30px;
+  dl {
+    dd {
+      a {
+        font-weight:bold;
+      }
+    }
+  }
+  
+}
+
+#head {
+  @include border-top-radius(5px);
+  margin-top:10px;
+}
+
+#foot {
+  @include border-bottom-radius(5px);
+}
 
 /* -----------------------------------------
    Page Name 2

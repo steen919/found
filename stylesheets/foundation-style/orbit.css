@@ -69,7 +69,7 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1342378427') no-repeat;
+  background: url('/images/foundation/orbit/rotator-black.png?1342465357') no-repeat;
   z-index: 3;
 }
 
@@ -94,7 +94,7 @@ div.orbit-wrapper span.rotator.move {
 div.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1342378427') repeat 0 0;
+  background: url('/images/foundation/orbit/timer-black.png?1342465357') repeat 0 0;
 }
 
 /* line 82, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
@@ -105,14 +105,14 @@ div.orbit-wrapper span.pause {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1342378427') no-repeat;
+  background: url('/images/foundation/orbit/pause-black.png?1342465357') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 
 /* line 93, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
 div.orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1342378427') no-repeat 0 -40px;
+  background: url('/images/foundation/orbit/pause-black.png?1342465357') no-repeat 0 -40px;
 }
 
 /* line 97, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
@@ -164,25 +164,25 @@ div.orbit-wrapper div.slider-nav span {
 
 /* line 134, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow.png?1342378427');
+  background: url('/images/foundation/orbit/right-arrow.png?1342465357');
   background-size: 100%;
   right: 0;
 }
 
 /* line 139, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow.png?1342378426');
+  background: url('/images/foundation/orbit/left-arrow.png?1342465357');
   background-size: 100%;
   left: 0;
 }
 
 /* line 145, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow-small.png?1342378427');
+  background: url('/images/foundation/orbit/right-arrow-small.png?1342465357');
 }
 /* line 146, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.5/stylesheets/foundation/orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow-small.png?1342378426');
+  background: url('/images/foundation/orbit/left-arrow-small.png?1342465357');
 }
 
 /* Bullet Nav ---------------------- */
@@ -204,7 +204,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1342378426') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1342465357') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -261,7 +261,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1342378426') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1342465357') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
