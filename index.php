@@ -66,7 +66,7 @@
 					    $aStart         = SM2_ROOT,
 					    $aMaxLevel      = SM2_START,
 					    $aOptions       = SM2_TRIM|SM2_PRETTY,
-					    $aItemOpen      = '[li][a]| [menu_title] |</a>',
+					    $aItemOpen      = '[li][a][menu_title]</a>',
 					    $aItemClose     = '</li>',
 					    $aMenuOpen      = '[ul]',
 					    $aMenuClose     = '</ul>',
@@ -74,9 +74,6 @@
 					    $aTopMenuOpen   = false); ?>
 				</div>
 				<hr />
-				<div style="font-size:8pt;margin:5px;color:grey;">
-					<?php show_breadcrumbs(); ?>
-				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -120,9 +117,6 @@
 			</div>
 			<div id="sidebar" class="two columns">
 				<div class="panel">
-					<div id="sidebar-feed" style="text-align:center;margin-bottom: 10px;">
-						 <?php ShowFeed(); ?> <span style="color:#222630;">&nbsp; Nyheter</span><br />
-					</div>
 					<div id="sidebar-menu">
 						<?php show_menu2(1, SM2_CURR+1, SM2_CURR+1); ?>
 					</div>					
@@ -146,6 +140,8 @@
 					<p id="adress">
 					  info@nybyggarscout.se &nbsp;|&nbsp; Ryttargårdskyrkan &nbsp;|&nbsp; 
 					  Djurgårdsgatan 97 &nbsp;|&nbsp; 582 29 Linköping 
+					  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					  <?php ShowFeed(); ?>
 					</p>
 					<p style="font-size:small;text-align: center;color: rgb(153, 153, 153);">[[SiteModified]]</p>
 					<?php page_footer(); ?>

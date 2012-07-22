@@ -88,50 +88,47 @@ ul.orbit-bullets li {
   /*background:url('../images/bg-menu.png') repeat-x;*/
   padding: 0 10px;
 }
-
-/* line 58, ../sass/app.scss */
+/* line 56, ../sass/app.scss */
 #menu ul {
   list-style-type: none;
 }
-
-/* line 61, ../sass/app.scss */
-#menu li {
+/* line 58, ../sass/app.scss */
+#menu ul li {
   float: left;
+  margin-right: 10px;
 }
-
-/* line 64, ../sass/app.scss */
-#menu li a {
-  padding: 0 15px;
+/* line 61, ../sass/app.scss */
+#menu ul li a {
+  font-weight: bold;
+  padding: 4px 15px;
+  background-color: #F2F2F2;
+  border: 1px solid #E6E6E6;
+  /*@include border-radius(3px);*/
   display: block;
   color: #222630;
   margin-right: 2px;
 }
 
-/* line 70, ../sass/app.scss */
-#menu li a:hover {
-  /*background:url('../images/bg-menu-hover.png') no-repeat center center;*/
-}
-
 /* Sidebar menu */
-/* line 76, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 #sidebar-menu ul {
   list-style-type: none;
   text-align: center;
 }
-/* line 80, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 #sidebar-menu ul li a {
   text-decoration: none;
 }
-/* line 84, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 #sidebar-menu ul li:before {
   content: "";
 }
-/* line 87, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 #sidebar-menu ul li:after {
   content: "\0020 \2013 \00BB";
 }
 
-/* line 94, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 .entry table {
   border: 0;
 }
@@ -139,18 +136,37 @@ ul.orbit-bullets li {
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
-/* line 102, ../sass/app.scss */
+/* line 103, ../sass/app.scss */
 #featured {
   margin-top: 10px;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
+#featured {
+  background: url("../images/index/spinner.gif") center center #f4f4f4;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+/* line 111, ../sass/app.scss */
+#featured img {
+  display: none;
+}
+/* line 114, ../sass/app.scss */
+#featured.orbit {
+  background: none;
+}
+/* line 116, ../sass/app.scss */
+#featured.orbit img {
+  display: block;
+}
+
+/* line 122, ../sass/app.scss */
 #welcome-button {
   margin-top: 30px;
   text-align: center;
 }
 
-/* line 111, ../sass/app.scss */
+/* line 127, ../sass/app.scss */
 #adress {
   text-align: center;
   font-size: small;
@@ -158,34 +174,34 @@ ul.orbit-bullets li {
   font-variant: small-caps;
 }
 
-/* line 118, ../sass/app.scss */
+/* line 134, ../sass/app.scss */
 #where {
   margin-top: 30px;
 }
-/* line 122, ../sass/app.scss */
+/* line 138, ../sass/app.scss */
 #where dl dd a {
   font-weight: bold;
 }
 
-/* line 130, ../sass/app.scss */
+/* line 146, ../sass/app.scss */
 #head {
-  -moz-border-radius-topleft: 5px;
-  -webkit-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -webkit-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
   margin-top: 10px;
 }
 
-/* line 135, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 #foot {
-  -moz-border-radius-bottomleft: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  -moz-border-radius-bottomright: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 /* -----------------------------------------
