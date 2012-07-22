@@ -46,7 +46,55 @@ div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundati
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png'); }
 ul.orbit-bullets li { background: url('../images/foundation/orbit/bullets.jpg') no-repeat 4px 0; }
 
+/* Menu */
 
+#menu {
+  height:25px;
+  line-height:25px;
+  /*background:url('../images/bg-menu.png') repeat-x;*/
+  padding:0 10px;
+}
+
+#menu ul {
+  list-style-type:none;
+}
+#menu li {
+  float:left;
+}
+#menu li a {
+  padding:0 15px;
+  display:block;
+  color:#222630;
+  margin-right:2px;
+}
+#menu li a:hover {
+  /*background:url('../images/bg-menu-hover.png') no-repeat center center;*/
+}
+
+/* Sidebar menu */
+#sidebar-menu {
+  ul {
+    list-style-type: none;
+    text-align: center;
+    li {
+      a {
+        text-decoration:none;
+      }
+    }
+    li:before {
+      content: "";
+    }
+    li:after {
+      content: "\0020 \2013 \00BB";
+    }
+  }
+}
+
+.entry {
+  table {
+    border:0;
+  }
+}
 
 /* -----------------------------------------
    Page Name 1

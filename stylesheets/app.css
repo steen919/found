@@ -80,21 +80,77 @@ ul.orbit-bullets li {
   background: url("../images/foundation/orbit/bullets.jpg") no-repeat 4px 0;
 }
 
+/* Menu */
+/* line 51, ../sass/app.scss */
+#menu {
+  height: 25px;
+  line-height: 25px;
+  /*background:url('../images/bg-menu.png') repeat-x;*/
+  padding: 0 10px;
+}
+
+/* line 58, ../sass/app.scss */
+#menu ul {
+  list-style-type: none;
+}
+
+/* line 61, ../sass/app.scss */
+#menu li {
+  float: left;
+}
+
+/* line 64, ../sass/app.scss */
+#menu li a {
+  padding: 0 15px;
+  display: block;
+  color: #222630;
+  margin-right: 2px;
+}
+
+/* line 70, ../sass/app.scss */
+#menu li a:hover {
+  /*background:url('../images/bg-menu-hover.png') no-repeat center center;*/
+}
+
+/* Sidebar menu */
+/* line 76, ../sass/app.scss */
+#sidebar-menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+/* line 80, ../sass/app.scss */
+#sidebar-menu ul li a {
+  text-decoration: none;
+}
+/* line 84, ../sass/app.scss */
+#sidebar-menu ul li:before {
+  content: "";
+}
+/* line 87, ../sass/app.scss */
+#sidebar-menu ul li:after {
+  content: "\0020 \2013 \00BB";
+}
+
+/* line 94, ../sass/app.scss */
+.entry table {
+  border: 0;
+}
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
-/* line 54, ../sass/app.scss */
+/* line 102, ../sass/app.scss */
 #featured {
   margin-top: 10px;
 }
 
-/* line 58, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 #welcome-button {
   margin-top: 30px;
   text-align: center;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 #adress {
   text-align: center;
   font-size: small;
@@ -102,16 +158,16 @@ ul.orbit-bullets li {
   font-variant: small-caps;
 }
 
-/* line 70, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 #where {
   margin-top: 30px;
 }
-/* line 74, ../sass/app.scss */
+/* line 122, ../sass/app.scss */
 #where dl dd a {
   font-weight: bold;
 }
 
-/* line 82, ../sass/app.scss */
+/* line 130, ../sass/app.scss */
 #head {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -122,7 +178,7 @@ ul.orbit-bullets li {
   margin-top: 10px;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 #foot {
   -moz-border-radius-bottomleft: 5px;
   -webkit-border-bottom-left-radius: 5px;
